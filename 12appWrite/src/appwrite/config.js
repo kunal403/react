@@ -1,4 +1,4 @@
-import confi from "../confi/confi";
+import confi from "../confi/confi.js";
 import { Storage, Databases, Query, ID, Client } from "appwrite";
 
 export class Service {
@@ -43,7 +43,6 @@ export class Service {
                     title,
                     content,
                     featuredImage,
-                    userId,
                     status,
                 }
             )
