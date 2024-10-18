@@ -69,8 +69,8 @@ export class Service {
     async getPost (slug) {
         try {
            return await this.databases.getDocument(
-                confi.appwriteCollectionId,
                 confi.appwriteDatabaseId,
+                confi.appwriteCollectionId,
                 slug,
             )
         } catch (error) {
