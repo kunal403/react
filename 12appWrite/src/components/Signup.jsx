@@ -8,7 +8,7 @@ import {useDispatch} from 'react-redux'
 import {useForm} from 'react-hook-form'
 
 function Signup() {
-    console.log("Signup component loaded");
+    // console.log("Signup component loaded");
     const navigate = useNavigate()
     const [error, setError] = useState("")
     const dispatch = useDispatch()
